@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>미디어쿼리를 이용한 맞춤형 스타일</title>
+        <link href="mobile.css" rel="stylesheet" type="text/css" media="screen and (max-width:799px)">
+        <link href="pc.css" rel="stylesheet" type="text/css" media="screen and (min-width:800px)">
+        <style>
+            @font-face{font-family:Namsan; src:url("08SeoulNamsanB_0.ttf")}
+            p{font-family: Namsan;}
+            h1{font-family: "궁서체";}
+        </style>
+    </head>
+    <body>
+        <div id="pc_view">
+            <h1>데스크탑 [PC화면]</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro labore eos eum aut voluptas magni voluptatem nostrum saepe laboriosam odio.</p>
+        </div>
+        <div id="mobile_view">
+            <h1>휴대폰 [모바일화면]</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt id molestiae placeat nisi quisquam nobis nulla inventore et tenetur provident!</p>            
+        </div>
+        <a href="index.html">돌아가기</a>
+    </body>
+</html>
